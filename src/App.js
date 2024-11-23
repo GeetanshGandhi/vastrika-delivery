@@ -2,7 +2,7 @@ import './App.css';
 import { ToastContainer, Slide } from 'react-toastify';
 import Login from './Component/Login';
 import 'react-toastify/dist/ReactToastify.css';
-import { createBrowserRouter, createHashRouter, RouterProvider} from "react-router-dom";
+import { createHashRouter, RouterProvider} from "react-router-dom";
 import { useEffect, useState } from 'react';
 import Navbar from './Component/Nav';
 import PendingOrders from './Component/PendingOrders';

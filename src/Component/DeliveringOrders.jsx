@@ -4,10 +4,10 @@ import { useEffect, useState } from 'react';
 
 export default function DeliveringOrders() {
     const navigate = useNavigate();
-    const [login, setlogin] = useState(null)
+    // const [login, setlogin] = useState(null)
     useEffect(()=>{
         if(localStorage.getItem("vastrikaDeliv")!==null){
-            setlogin(JSON.parse(localStorage.getItem("vastrikaDeliv")));
+            // setlogin(JSON.parse(localStorage.getItem("vastrikaDeliv")));
             let form = new FormData();
             form.append("city", JSON.parse(localStorage.getItem("vastrikaDeliv")).city);
             form.append("emp", JSON.parse(localStorage.getItem("vastrikaDeliv")).employeeEmail);
