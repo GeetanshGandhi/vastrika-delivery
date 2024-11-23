@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.super-nonflex-container {
+	min-height: 88vh;
+	background-color: rgb(247, 240, 255);
+	padding: 2vh 2vw 10vh 2vw;
+}
+
+.super-flex-container {
+	padding: 10vh 5vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 88vh;
+	background-color: rgb(247, 240, 255);
+	@media (max-width: 500px){
+		padding: 20px;
+	}
+}
+
+.headings{
+    text-align: center;
+    font: 37px "Averia Libre", Arial;
+    font-weight: bold;
+    color: rgb(102, 0, 128);
+}
+/* form data input css*/
+.form-ip{
+    position: relative;
+    width: 100%;
+}
+.form-ip-head{
+    cursor: text;
+    position: absolute;
+    top: 6vh;
+    left: 1vw;
+    font: 3.5vh "Ubuntu", Arial;
+    color: grey;
+    transition: all 0.2s ease-out;
+}
+.form-ip-input{
+    width: 100%;
+    margin: 5vh 0 3vh 0;
+    font: 3.5vh "Ubuntu", Arial;
+    color: rgb(90, 90, 90);
+    padding: 4px 5px;
+    border: 2px solid white;
+    border-bottom: 2px solid rgb(192, 133, 247);
+    transition: all 0.2s ease-out;
+}
+.form-ip-input:focus{
+    outline: none;
+    border: 2px solid rgb(74, 0, 172);
+    border-radius: 7px;
+}
+.form-ip-input:focus ~ .form-ip-head, .form-ip-input:not(:placeholder-shown) ~ .form-ip-head{
+    top: 3.5vh;
+    font-size: 2.5vh;
+    background-color: white;
+}

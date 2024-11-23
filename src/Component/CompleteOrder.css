@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+.complete-subhead{
+    margin: 20px 0 10px 0;
+    text-align: center;
+    font: 25px "Ubuntu", Arial;
+}
+.address{
+    margin: 20px 0 0 20px;
+    font: 20px "Poppins", Arial;
+    @media (max-width: 500px) {
+        margin: 10px 0 0 5px;
+        font-size: 15px;
+    }
+}
+.otp-ip{
+    padding: 4px 20px;
+    font: 25px "Ubuntu", Arial;
+    border: 2px solid rgb(140, 0, 255);
+    border-radius: 4px;
+    width: 110px;
+    transition: all 0.2s ease-out;
+}
+.otp-ip:focus{
+    outline: none;
+    border: 2px solid rgb(71, 0, 185);
+    border-radius: 10px;
+}
+.finish-btn{
+    margin-top: 20px;
+    font: 17px "Poppins", Arial;
+    font-weight: bold;
+    padding: 0px 40px;
+    background-color: rgb(220, 229, 255);
+    border: 3px solid rgb(0, 38, 141);
+    color: rgb(0, 38, 141);
+    transition: all 0.2s ease-out;
+}
+.finish-btn:hover{
+    cursor: pointer;
+}
+.finish-btn:active{
+    background-color: rgb(0, 38, 141);
+    color:white;
+    border-radius: 10px;
+}
+.ord-det{
+    text-align: center;
+}

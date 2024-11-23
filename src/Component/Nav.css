@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    background-color: rgb(199, 186, 255);
+    @media (max-width: 500px) {
+        display: block;
+        height: 25vh;
+        padding: 10px 20px;
+    }
+}
+.nav-left-wrapper{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media (max-width: 500px) {
+        transform: scale(0.6);
+        position: relative;
+        right: 15vw;
+        bottom: 2vh;
+        height: 9vh;
+    }
+}
+#nav-logo{
+    height: 12vh;
+    margin: 0 5px 0 10px;
+    @media (max-width: 500px ){
+        margin: 0 0 0 0;
+    }
+}
+.title-bigletter{
+    position: relative;
+    top: 1.5vh;
+    font: 10vh "Great Vibes";
+    font-weight: bold;
+    color:rgb(80, 0, 69)
+}
+.title{
+    position:relative;
+    top: 0.7vh;
+    left: 5px;
+    font: 7vh "Great Vibes", "Arial";
+    font-weight: bold;
+    color: rgb(80, 0, 69);
+    @media (max-width: 500px) {
+        top: 1vh;
+        left: 4vw;
+    }
+}
+.punchline{
+    position: relative;
+    bottom: 1.3vh;
+    font: 3.2vh "Great Vibes", Arial;
+    color:rgb(97, 0, 189);
+    @media (max-width: 500px) {
+        bottom: 0.5vh;
+        font-size: 4vh;
+        width: 250px;
+    }
+}
+.nav-buttons{
+    padding: 5px 20px;
+    font: 17px "Poppins", Arial;
+    background-color: blueviolet;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer; 
+    transition: all 0.2s ease-out;
+}
+.nav-buttons:hover{
+    border: 2px solid rgb(97, 0, 189);
+    background-color: rgb(174, 75, 255);
+}
+.logout-btn{
+    margin-right: 30px;
+    padding: 4px 20px;
+    font: 17px Arial;
+    background-color: white;
+    border: 2px solid rgb(158, 0, 0);
+    color: rgb(110, 0, 0);
+    border-radius: 10px;
+    font-weight: bold;
+    transition: all 0.2s ease-out;
+}
+.logout-btn:hover{
+    color: white;
+    cursor: pointer;
+    background-color: rgb(110, 0, 0);
+}
