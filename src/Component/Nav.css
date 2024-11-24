@@ -5,31 +5,16 @@ nav{
     align-items: center;
     height: 12vh;
     background-color: rgb(199, 186, 255);
-    @media (max-width: 500px) {
-        display: block;
-        height: 25vh;
-        padding: 10px 20px;
-    }
 }
 .nav-left-wrapper{
     text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    @media (max-width: 500px) {
-        transform: scale(0.6);
-        position: relative;
-        right: 15vw;
-        bottom: 2vh;
-        height: 9vh;
-    }
 }
 #nav-logo{
     height: 12vh;
     margin: 0 5px 0 10px;
-    @media (max-width: 500px ){
-        margin: 0 0 0 0;
-    }
 }
 .title-bigletter{
     position: relative;
@@ -45,28 +30,12 @@ nav{
     font: 7vh "Great Vibes", "Arial";
     font-weight: bold;
     color: rgb(80, 0, 69);
-    @media (max-width: 500px) {
-        top: 1vh;
-        left: 4vw;
-    }
 }
 .punchline{
     position: relative;
     bottom: 1.3vh;
     font: 3.2vh "Great Vibes", Arial;
     color:rgb(97, 0, 189);
-    @media (max-width: 500px) {
-        bottom: 0.5vh;
-        font-size: 4vh;
-        width: 250px;
-    }
-}
-.btn-wrapper{
-    @media (max-width: 500px) {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
 }
 .nav-buttons{
     padding: 5px 20px;
@@ -77,10 +46,6 @@ nav{
     color: white;
     cursor: pointer; 
     transition: all 0.2s ease-out;
-    @media (max-width: 500px) {
-        margin: 10px;
-        font: 15px "Ubuntu", Arial;
-    }
 }
 .nav-buttons:hover{
     border: 2px solid rgb(97, 0, 189);
@@ -102,8 +67,42 @@ nav{
     cursor: pointer;
     background-color: rgb(110, 0, 0);
 }
-.logout-wrapper{
-    @media (max-width: 500px) {
+
+@media only screen and (max-width: 500px){
+    nav {
+        display: block;
+        height: 25vh;
+        padding: 10px 20px;
+    }
+    .btn-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-left-wrapper{
+        transform: scale(0.6);
+        position: relative;
+        right: 15vw;
+        bottom: 2vh;
+        height: 9vh;
+    }
+    #nav-logo{
+        margin: 0 0 0 0;
+    }
+    .title{
+        top: 1vh;
+        left: 4vw;
+    }
+    .punchline {
+        bottom: 0.5vh;
+        font-size: 4vh;
+        width: 250px;
+    }
+    .nav-buttons {
+        margin: 10px;
+        font: 15px "Ubuntu", Arial;
+    }
+    .logout-wrapper{
         display: flex;
         justify-content: center;
     }
