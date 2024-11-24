@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/vastrika-delivery/static/css/main.4f16b166.css",
-    "main.js": "/vastrika-delivery/static/js/main.1b8c6004.js",
+    "main.css": "/vastrika-delivery/static/css/main.68450638.css",
+    "main.js": "/vastrika-delivery/static/js/main.e43ea0dc.js",
     "static/media/logo.webp": "/vastrika-delivery/static/media/logo.b0d0c42d7d501c0d5fcd.webp",
     "index.html": "/vastrika-delivery/index.html",
-    "main.4f16b166.css.map": "/vastrika-delivery/static/css/main.4f16b166.css.map",
-    "main.1b8c6004.js.map": "/vastrika-delivery/static/js/main.1b8c6004.js.map"
+    "main.68450638.css.map": "/vastrika-delivery/static/css/main.68450638.css.map",
+    "main.e43ea0dc.js.map": "/vastrika-delivery/static/js/main.e43ea0dc.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f16b166.css",
-    "static/js/main.1b8c6004.js"
+    "static/css/main.68450638.css",
+    "static/js/main.e43ea0dc.js"
   ]
 }
