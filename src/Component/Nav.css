@@ -61,6 +61,13 @@ nav{
         width: 250px;
     }
 }
+.btn-wrapper{
+    @media (max-width: 500px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
 .nav-buttons{
     padding: 5px 20px;
     font: 17px "Poppins", Arial;
@@ -70,6 +77,10 @@ nav{
     color: white;
     cursor: pointer; 
     transition: all 0.2s ease-out;
+    @media (max-width: 500px) {
+        margin: 10px;
+        font: 15px "Ubuntu", Arial;
+    }
 }
 .nav-buttons:hover{
     border: 2px solid rgb(97, 0, 189);
@@ -90,4 +101,10 @@ nav{
     color: white;
     cursor: pointer;
     background-color: rgb(110, 0, 0);
+}
+.logout-wrapper{
+    @media (max-width: 500px) {
+        display: flex;
+        justify-content: center;
+    }
 }

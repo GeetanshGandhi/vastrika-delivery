@@ -16,14 +16,18 @@ export default function Navbar() {
                     <h1 className="title">astrika</h1>
                     <h2 className="punchline">Threads of Tradition</h2>
                 </div>
-            </Link>            
-            <button className='nav-buttons' onClick={()=>{
-                navigate('/remainOrder')
-            }}>Pending Orders</button>
-            <button className='nav-buttons' onClick={()=>{
-                navigate('/order')
-            }}>Currently Delivering</button>
-            <button className="logout-btn" onClick={doLogout}>Log out</button>
+            </Link>
+            <div className="btn-wrapper">     
+                <button className='nav-buttons' onClick={()=>{
+                    navigate('/remainOrder')
+                }}>Pending Orders</button>
+                <button className='nav-buttons' onClick={()=>{
+                    navigate('/order')
+                }}>Currently Delivering</button>
+            </div>
+            <div className="logout-wrapper">
+                <button className="logout-btn" onClick={doLogout}>Log out</button>
+            </div>
         </nav>
     )
 }
